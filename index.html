@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menù - DaVinci Pizzeria Gourmet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+      }
+
+      #flags-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: black;
+      }
+
+      .flag {
+        color: white;
+        font-family: "Amatic SC";
+      }
+
+      .flag img {
+        width: 250px;
+      }
+
+      .flag p {
+        display: flex;
+        justify-content: center;
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+      }
+
+      .amatic-sc-regular {
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .amatic-sc-bold {
+        font-family: "Amatic SC", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="flags-container">
+      <div class="flag">
+        <img src="./it.svg" />
+        <p>Menù - Italiano</p>
+      </div>
+      <div class="flag">
+        <img src="./gb.svg" />
+        <p style="margin-bottom: 0">Menù - English</p>
+      </div>
+    </div>
+  </body>
+</html>
